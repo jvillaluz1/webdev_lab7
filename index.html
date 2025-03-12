@@ -2,103 +2,219 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Planetary Fact Sheet - Solar System Comparison</title>
+  <title>Planetary Fact Sheet</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1 class="main-title">Exploring Our Solar System</h1>
-      <h2 class="subtitle">Planetary Fact Sheet</h2>
-    </header>
+  <h1>Planetary Fact Sheet</h1>
+  <table id="planets">
+    <tr>
+      <th></th>
+      <th>Mercury</th>
+      <th>Venus</th>
+      <th>Mars</th>
+      <th>Jupiter</th>
+    </tr>
+    <tr>
+      <td>Images of Planets</td>
+      <td><img src="images/planet_1.png" alt="Mercury"></td>
+      <td><img src="images/planet_2.png" alt="Venus"></td>
+      <td><img src="images/planet_3.png" alt="Mars"></td>
+      <td><img src="images/planet_4.png" alt="Jupiter"></td>
+    </tr>
+    <tr>
+      <td>Mass (10<sup>24</sup> kg)</td>
+      <td>0.330</td>
+      <td>4.87</td>
+      <td>0.642</td>
+      <td>1,898</td>
+    </tr>
+    <tr>
+      <td>Diameter (km)</td>
+      <td>4,879</td>
+      <td>12,104</td>
+      <td>6,792</td>
+      <td>142,984</td>
+    </tr>
+    <tr>
+      <td>Distance from Sun (10<sup>6</sup> km)</td>
+      <td>57.9</td>
+      <td>108.2</td>
+      <td>227.9</td>
+      <td>778.6</td>
+    </tr>
+    <tr>
+      <td>Orbital Period (Earth days)</td>
+      <td>88.0</td>
+      <td>224.7</td>
+      <td>687.0</td>
+      <td>4,331</td>
+    </tr>
+    <tr>
+      <td>Surface Gravity (m/s<sup>2</sup>)</td>
+      <td>3.7</td>
+      <td>8.9</td>
+      <td>3.7</td>
+      <td>23.1</td>
+    </tr>
+    <tr>
+      <td>Mean Temperature (°C)</td>
+      <td>167</td>
+      <td>464</td>
+      <td>-65</td>
+      <td>-110</td>
+    </tr>
+    <tr>
+      <td>Number of Moons</td>
+      <td>0</td>
+      <td>0</td>
+      <td>2</td>
+      <td>79</td>
+    </tr>
+  </table>
+
+  <div id="additional-facts">
+    <h2>Additional Facts About Each Planet</h2>
     
-    <section class="intro">
-      <p>Welcome to our planetary comparison guide. Below you'll find key data about four fascinating planets in our solar system. This information is sourced from NASA's <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/" class="data-link">National Space Science Data Center</a>.</p>
-    </section>
-    
-    <table id="planets" class="planet-table">
-      <thead>
-        <tr class="header-row">
-          <th class="category-header">Characteristics</th>
-          <th>Mercury</th>
-          <th>Venus</th>
-          <th>Mars</th>
-          <th>Jupiter</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="image-row">
-          <td class="category">Planet Image</td>
-          <td><img src="images/planet_1.png" alt="Mercury" class="planet-img"></td>
-          <td><img src="images/planet_2.png" alt="Venus" class="planet-img"></td>
-          <td><img src="images/planet_3.png" alt="Mars" class="planet-img"></td>
-          <td><img src="images/planet_4.png" alt="Jupiter" class="planet-img"></td>
+    <div class="planet-section">
+      <h3>Mercury</h3>
+      <table class="facts-table">
+        <tr>
+          <td class="fact-number">1</td>
+          <td class="fact-text">Mercury has the highest orbital eccentricity of all the planets, with an orbit that ranges from 46 million km to 70 million km from the Sun.</td>
         </tr>
         <tr>
-          <td class="category">Mass (10<sup>24</sup> kg)</td>
-          <td>0.330</td>
-          <td>4.87</td>
-          <td>0.642</td>
-          <td>1,898</td>
-        </tr>
-        <tr class="alt-row">
-          <td class="category">Diameter (km)</td>
-          <td>4,879</td>
-          <td>12,104</td>
-          <td>6,792</td>
-          <td>142,984</td>
+          <td class="fact-number">2</td>
+          <td class="fact-text">Despite being the closest planet to the Sun, Mercury is not the hottest planet. Its average temperature is 167°C, while Venus averages 464°C.</td>
         </tr>
         <tr>
-          <td class="category">Distance from Sun (10<sup>6</sup> km)</td>
-          <td>57.9</td>
-          <td>108.2</td>
-          <td>227.9</td>
-          <td>778.6</td>
-        </tr>
-        <tr class="alt-row">
-          <td class="category">Orbital Period (Earth days)</td>
-          <td>88.0</td>
-          <td>224.7</td>
-          <td>687.0</td>
-          <td>4,331</td>
+          <td class="fact-number">3</td>
+          <td class="fact-text">Mercury has the shortest orbital period of all planets, taking just 88 Earth days to complete one orbit around the Sun.</td>
         </tr>
         <tr>
-          <td class="category">Surface Gravity (m/s<sup>2</sup>)</td>
-          <td>3.7</td>
-          <td>8.9</td>
-          <td>3.7</td>
-          <td>23.1</td>
-        </tr>
-        <tr class="alt-row">
-          <td class="category">Mean Temperature (°C)</td>
-          <td>167</td>
-          <td>464</td>
-          <td>-65</td>
-          <td>-110</td>
+          <td class="fact-number">4</td>
+          <td class="fact-text">Mercury's day is very long compared to its year - one Mercury day (sunrise to sunrise) equals 176 Earth days.</td>
         </tr>
         <tr>
-          <td class="category">Number of Moons</td>
-          <td>0</td>
-          <td>0</td>
-          <td>2</td>
-          <td>79</td>
+          <td class="fact-number">5</td>
+          <td class="fact-text">Mercury has no atmosphere to speak of, with a surface pressure less than one trillionth of Earth's atmospheric pressure.</td>
         </tr>
-      </tbody>
-    </table>
+        <tr>
+          <td class="fact-number">6</td>
+          <td class="fact-text">Mercury has a significantly higher density (5.43 g/cm³) than would be expected for its size, suggesting a large iron core.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">7</td>
+          <td class="fact-text">Mercury experiences the largest temperature variation of any planet, ranging from -173°C at night to 427°C during the day.</td>
+        </tr>
+      </table>
+    </div>
     
-    <section class="fun-facts">
-      <h3>Interesting Facts</h3>
-      <ul>
-        <li><span class="planet-name">Mercury</span> is the smallest and closest planet to the Sun.</li>
-        <li><span class="planet-name">Venus</span> is the hottest planet with surface temperatures that can melt lead.</li>
-        <li><span class="planet-name">Mars</span> has the largest volcano in the solar system, Olympus Mons.</li>
-        <li><span class="planet-name">Jupiter</span> is the largest planet and has a Great Red Spot - a storm that has been raging for hundreds of years.</li>
-      </ul>
-    </section>
+    <div class="planet-section">
+      <h3>Venus</h3>
+      <table class="facts-table">
+        <tr>
+          <td class="fact-number">1</td>
+          <td class="fact-text">Venus is the hottest planet in our solar system with a mean surface temperature of 464°C, hot enough to melt lead.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">2</td>
+          <td class="fact-text">Venus rotates in the opposite direction to most planets, meaning the Sun rises in the west and sets in the east.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">3</td>
+          <td class="fact-text">Venus has the longest day of any planet in our solar system - one Venus day is equivalent to 243 Earth days.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">4</td>
+          <td class="fact-text">Venus has an extremely dense atmosphere composed primarily of carbon dioxide, creating a runaway greenhouse effect.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">5</td>
+          <td class="fact-text">Venus has the most circular orbit of any planet, with an eccentricity of less than 0.01.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">6</td>
+          <td class="fact-text">Venus's atmospheric pressure at the surface is 92 times that of Earth, equivalent to the pressure found 900 meters deep in Earth's oceans.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">7</td>
+          <td class="fact-text">Venus is often called Earth's "sister planet" due to their similar size and mass, but their surface conditions are radically different.</td>
+        </tr>
+      </table>
+    </div>
     
-    <footer>
-      <p>Data source: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/" class="data-link">NASA's Planetary Fact Sheet</a></p>
-    </footer>
+    <div class="planet-section">
+      <h3>Mars</h3>
+      <table class="facts-table">
+        <tr>
+          <td class="fact-number">1</td>
+          <td class="fact-text">Mars has the largest volcano in the solar system, Olympus Mons, which stands 22 km high and is 600 km across.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">2</td>
+          <td class="fact-text">Mars has the largest dust storms in the solar system, which can last for months and cover the entire planet.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">3</td>
+          <td class="fact-text">Mars has two small moons, Phobos and Deimos, which are thought to be captured asteroids.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">4</td>
+          <td class="fact-text">Mars has seasons similar to Earth due to its axial tilt of 25.2° (compared to Earth's 23.5°).</td>
+        </tr>
+        <tr>
+          <td class="fact-number">5</td>
+          <td class="fact-text">Mars has polar ice caps made of water ice and dry ice (frozen carbon dioxide) that grow and shrink with the seasons.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">6</td>
+          <td class="fact-text">Mars has the deepest canyon in the solar system, Valles Marineris, which is 4,000 km long and up to 7 km deep.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">7</td>
+          <td class="fact-text">Mars has a thin atmosphere composed mainly of carbon dioxide (95.3%), with surface pressure less than 1% of Earth's.</td>
+        </tr>
+      </table>
+    </div>
+    
+    <div class="planet-section">
+      <h3>Jupiter</h3>
+      <table class="facts-table">
+        <tr>
+          <td class="fact-number">1</td>
+          <td class="fact-text">Jupiter is the largest planet in our solar system, with a mass 2.5 times that of all other planets combined.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">2</td>
+          <td class="fact-text">Jupiter has the strongest magnetic field of any planet, about 14 times stronger than Earth's.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">3</td>
+          <td class="fact-text">Jupiter has the Great Red Spot, a giant storm that has been raging for at least 400 years and is larger than Earth.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">4</td>
+          <td class="fact-text">Jupiter has at least 79 moons, with the four largest (Io, Europa, Ganymede, and Callisto) discovered by Galileo in 1610.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">5</td>
+          <td class="fact-text">Jupiter is the fastest rotating planet in the solar system, completing one rotation in just under 10 hours.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">6</td>
+          <td class="fact-text">Jupiter has rings, although they are much fainter than Saturn's and primarily composed of dust particles.</td>
+        </tr>
+        <tr>
+          <td class="fact-number">7</td>
+          <td class="fact-text">Jupiter emits more energy than it receives from the Sun, generating heat through gravitational compression.</td>
+        </tr>
+      </table>
+    </div>
   </div>
+
+  <footer>
+    <p>Data source: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/">NASA's Planetary Fact Sheet</a></p>
+  </footer>
 </body>
 </html>

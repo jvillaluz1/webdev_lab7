@@ -2,74 +2,103 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Your Title Here</title>
+  <title>Planetary Fact Sheet - Solar System Comparison</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <h1>Planetary Fact Sheet</h1>
-  <table id="planets">
-    <tr>
-      <th></th>
-      <th>Planet 1</th>
-      <th>Planet 2</th>
-      <th>Planet 3</th>
-      <th>Planet 4</th>
-    </tr>
-    <tr>
-      <td>Images of ??</td>
-      <td><img src="images/planet_1.png" alt="?"></td>
-      <td><img src="images/planet_2.png" alt="?"></td>
-      <td><img src="images/planet_3.png" alt="?"></td>
-      <td><img src="images/planet_4.png" alt="?"></td>
-    </tr>
-    <tr>
-      <td>Fact #1</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #2</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #3</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #4</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #5</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #6</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-    <tr>
-      <td>Fact #7</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-      <td>???</td>
-    </tr>
-  </table>
+  <div class="container">
+    <header>
+      <h1 class="main-title">Exploring Our Solar System</h1>
+      <h2 class="subtitle">Planetary Fact Sheet</h2>
+    </header>
+    
+    <section class="intro">
+      <p>Welcome to our planetary comparison guide. Below you'll find key data about four fascinating planets in our solar system. This information is sourced from NASA's <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/" class="data-link">National Space Science Data Center</a>.</p>
+    </section>
+    
+    <table id="planets" class="planet-table">
+      <thead>
+        <tr class="header-row">
+          <th class="category-header">Characteristics</th>
+          <th>Mercury</th>
+          <th>Venus</th>
+          <th>Mars</th>
+          <th>Jupiter</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="image-row">
+          <td class="category">Planet Image</td>
+          <td><img src="images/planet_1.png" alt="Mercury" class="planet-img"></td>
+          <td><img src="images/planet_2.png" alt="Venus" class="planet-img"></td>
+          <td><img src="images/planet_3.png" alt="Mars" class="planet-img"></td>
+          <td><img src="images/planet_4.png" alt="Jupiter" class="planet-img"></td>
+        </tr>
+        <tr>
+          <td class="category">Mass (10<sup>24</sup> kg)</td>
+          <td>0.330</td>
+          <td>4.87</td>
+          <td>0.642</td>
+          <td>1,898</td>
+        </tr>
+        <tr class="alt-row">
+          <td class="category">Diameter (km)</td>
+          <td>4,879</td>
+          <td>12,104</td>
+          <td>6,792</td>
+          <td>142,984</td>
+        </tr>
+        <tr>
+          <td class="category">Distance from Sun (10<sup>6</sup> km)</td>
+          <td>57.9</td>
+          <td>108.2</td>
+          <td>227.9</td>
+          <td>778.6</td>
+        </tr>
+        <tr class="alt-row">
+          <td class="category">Orbital Period (Earth days)</td>
+          <td>88.0</td>
+          <td>224.7</td>
+          <td>687.0</td>
+          <td>4,331</td>
+        </tr>
+        <tr>
+          <td class="category">Surface Gravity (m/s<sup>2</sup>)</td>
+          <td>3.7</td>
+          <td>8.9</td>
+          <td>3.7</td>
+          <td>23.1</td>
+        </tr>
+        <tr class="alt-row">
+          <td class="category">Mean Temperature (°C)</td>
+          <td>167</td>
+          <td>464</td>
+          <td>-65</td>
+          <td>-110</td>
+        </tr>
+        <tr>
+          <td class="category">Number of Moons</td>
+          <td>0</td>
+          <td>0</td>
+          <td>2</td>
+          <td>79</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <section class="fun-facts">
+      <h3>Interesting Facts</h3>
+      <ul>
+        <li><span class="planet-name">Mercury</span> is the smallest and closest planet to the Sun.</li>
+        <li><span class="planet-name">Venus</span> is the hottest planet with surface temperatures that can melt lead.</li>
+        <li><span class="planet-name">Mars</span> has the largest volcano in the solar system, Olympus Mons.</li>
+        <li><span class="planet-name">Jupiter</span> is the largest planet and has a Great Red Spot - a storm that has been raging for hundreds of years.</li>
+      </ul>
+    </section>
+    
+    <footer>
+      <p>Data source: <a href="https://nssdc.gsfc.nasa.gov/planetary/factsheet/" class="data-link">NASA's Planetary Fact Sheet</a></p>
+    </footer>
+  </div>
 </body>
+</html>

@@ -1,4 +1,179 @@
-td, th {
-	border: 1px solid;
-  }
-  
+/* Global Styles */
+body {
+	font-family: 'Times New Roman', sans-serif;
+	background-color: #0c1445;
+	color: #e0e0e0;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+/* Header Styles */
+header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.main-title {
+	font-size: 3rem;
+	color: #f8c471;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	text-shadow: 0 0 15px rgba(248, 196, 113, 0.4);
+}
+
+.subtitle {
+	font-size: 1.5rem;
+	color: #5dade2;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+/* Intro Section */
+.intro {
+	font-size: 1.1rem;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 30px;
+	border-left: 5px solid #f8c471;
+}
+
+/* Table Styles */
+.planet-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 30px 0;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	border-radius: 8px;
+}
+
+.planet-table th,
+.planet-table td {
+	padding: 15px;
+	text-align: center;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.planet-table th {
+	background-color: #1a237e;
+	color: #ffffff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.category-header {
+	background-color: #283593;
+}
+
+.category {
+	text-align: left;
+	font-weight: bold;
+	color: #f8c471;
+}
+
+.alt-row {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.alt-row {
+	background-color: rgba(255, 255, 255, 0.05);
+}
+
+.header-row th {
+	padding: 20px 15px;
+}
+
+.image-row td {
+	padding: 20px 10px;
+}
+
+/* Planet Images */
+.planet-img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 3px solid #f8c471;
+	box-shadow: 0 0 15px rgba(240, 196, 113, 0.4);
+	transition: transform 0.3s ease;
+}
+
+.planet-img:hover {
+	transform: scale(1.1);
+}
+
+/* Fun Facts Section */
+.fun-facts {
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 8px;
+	padding; 20px;
+	margin: 30px 0;
+}
+
+.fun-facts h3 {
+	color: #5dade2;
+	margin-top: 0;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+	padding-bottom: 10px;
+}
+
+.fun-facts ul {
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+.fun-facts li {
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 20px;
+}
+
+.fun-facts li {
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 20px;
+}
+
+.fun-facts li:before {
+	content: "-";
+	color: #f8c471;
+	position: absolute;
+	left: 0;
+}
+
+.planet-name {
+	color: #5dade2;
+	font-weight: bold;
+}
+
+/* Footer Styles */
+footer {
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 20px;
+	border-top: 1px solid rgba(255, 255, 255, 0.1);
+	color: #aaa;
+	font-size: 0.9rem;
+}
+
+/* Links */
+a.data-link {
+	color: #5dade2;
+	text-decoration: none;
+	border-bottom: 1px dotted #5dade2;
+	transition: color 0.3s ease;
+}
+
+a.data-link:hover {
+	color: #f8c471;
+	border-bottom-color: #f8c471;
+}
+
